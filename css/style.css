@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+#firstDiv{
+    height: 200px;
+    width: 20%;
+    background-color: green;
+    float: left;
+}
+.last-div{
+    height: 200px;
+    width: 80%;
+    background-color: red;
+    float: left;
+}
+.div-one{
+    height: 50px;
+    width: 100%;
+    background-color: cadetblue;
+    float: left;
+    padding-top: 150px;
+}
+.div-two{
+    height: 600px;
+    width: 20%;
+    background-color: aqua;
+    float: left;
+}
+.div-three{
+    height: 600px;
+    width: 80%;
+    background-color: cornflowerblue;
+    float: left;
+}
+.div-six{
+    height: 300px;
+    width: 25%;
+    background-color: blueviolet;
+    float: left;
+}
+.div-seven{
+    height: 300px;
+    width: 25%;
+    background-color: green;
+    float: left;
+}
+.div-eight{
+    height: 300px;
+    width: 25%;
+    background-color: yellow;
+    float: left;
+}
+.div-nine{
+    height: 300px;
+    width: 25%;
+    background-color: orange;
+    float: left;
+}
+.div-ten{
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    float: left;
+}
+
+
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.33%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+
+[class*='col-']
+{
+    float: left;
+    border: 1px solid gray;
+    height: 300px;
+}
+.header-height{
+    height: 200px;
+}
+.menu-height{
+    height: 50px;
+}
+.body-height{
+    height: 600px;
+}
+.big-footer-height{
+    height: 300px;
+}
+.footer{
+    height: 50px;
+}
